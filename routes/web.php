@@ -21,3 +21,4 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 $this->resource('users','UsersController');
+$this->resource('roles','RolesController');

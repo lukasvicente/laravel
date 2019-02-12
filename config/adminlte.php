@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'title' => 'AdminLTE 2',
+    'title' => 'Assema-RN',
 
     'title_prefix' => '',
 
@@ -126,6 +126,11 @@ return [
         [
             'text' => 'User',
             'url'  => 'users',
+            'icon' => 'user',
+        ],
+        [
+            'text' => 'Roles',
+            'url'  => 'roles',
             'icon' => 'user',
         ],
         [
